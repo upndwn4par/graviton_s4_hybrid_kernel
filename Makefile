@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 0
-EXTRAVERSION =_stockup_tw_4.3_
+EXTRAVERSION =_StockUp_tw_4.3_
 NAME = Saber-toothed Squirrel
 
 # *DOCUMENTATION*
@@ -193,7 +193,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ \
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 export KBUILD_BUILDHOST := $(SUBARCH)
 ARCH		?= arm
-CROSS_COMPILE	?= /home/upndwn4par/android/toolchain/arm-eabi-4.6/bin/arm-eabi-
+CROSS_COMPILE	?= /home/upndwn4par/android/toolchain/arm-eabi-4.7/bin/arm-eabi-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
